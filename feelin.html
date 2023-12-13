@@ -1,0 +1,47 @@
+<!-- Why i love you?
+Why you are special for me?
+What is my expectation from you?
+What I feel and what I want?
+Happy Birthday wish!
+Thank you! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feelin</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        video {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <video onclick="Play()" id="vid">
+        <source src="./feelin.mp4" type="video/mp4">    
+    </video>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        swal("WELCOME!!", "Let's Have a beautiful tour of the world to see the beautiful things")
+        function Play() {
+            document.getElementById('vid').play();
+        }
+        window.onclick = () => {
+            document.getElementById('vid').play();
+        }
+        document.getElementById('vid').addEventListener('ended',myHandler,false);
+        function myHandler(e) {
+            window.location.href = "dataL.html"
+        }
+    </script>
+</body>
+</html>
