@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* color: white; */
+}
+body {
+    background-image: linear-gradient(rgb(0, 0, 66), teal, rgb(31, 190, 230));
+}
+.nav {
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+}
+tr {
+    padding: 0px;
+    margin: opx;
+}
+
+input {
+    width: 100px;
+}
+.tbl {
+    color: white;
+    background-image: linear-gradient(rgb(62, 16, 230) ,rgb(16, 143, 216) );
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+th {
+    width: 1000px;
+    /*background-color: #252525; */
+    /* color: white; */
+    border: 2px solid;
+    padding: 7px;
+}
+.button {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    border:2px solid grey;
+    margin-top: 5px;
+}
+.button:active {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+}
+.para {
+    background-image: linear-gradient(black, #252525);
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+}
